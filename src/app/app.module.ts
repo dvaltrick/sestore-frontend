@@ -1,3 +1,5 @@
+import { ImpostosModule } from './impostos/impostos.module';
+import { CaixaModule } from './caixa/caixa.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -10,7 +12,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CaixaModule,
+    ImpostosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
